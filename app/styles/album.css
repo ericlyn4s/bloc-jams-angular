@@ -31,6 +31,7 @@
     margin: 1.5rem auto;
     font-weight: 300;
     font-size: 0.75em;
+    border-collapse: collapse;
 }
 
 .album-view-song-item {
@@ -75,7 +76,7 @@
 
 /*MEDIA QUERIES*/
 
-@media (max-width: 40rem) and (min-width: 20rem) {
+@media (max-width: 640px) and (min-width: 320px) {
     .album-view-details {
         text-align: center
     }
