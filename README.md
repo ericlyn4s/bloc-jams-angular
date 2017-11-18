@@ -42,8 +42,3 @@ Go to Github and create a new repository. Add that new repository as the proper 
 $ git remote add origin <URL TO NEW GITHUB REPO>
 $ git push origin master
 ```
-
-
-### Difference between Pages and Templates
-
-The `templates` directory should hold any HTML files used as templates in Angular states configured by UI Router. All other HTML files belong in the `pages` directory.
