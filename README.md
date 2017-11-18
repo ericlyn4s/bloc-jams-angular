@@ -10,7 +10,7 @@ Languages & libraries: HTML, CSS, JavaScript, Angular, jQuery, Buzz audio librar
 
 ## How to Install
 
-###Pull Down the Code
+### Pull Down the Code
 
 Start by cloning the repository:
 
