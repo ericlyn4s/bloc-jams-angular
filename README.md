@@ -2,13 +2,15 @@
 
 Bloc Jams is modeled after services such as Spotify and iTunes. The landing page highlights Bloc Jams' features in an enticing, attention-grabbing format, and features CSS elements such as text shadowing and transition animations. Bullet points are accompanied by graphics from the Ionicons font library. The header at the top provides a link to the Collection page, which displays the user's albums in an appealing grid-based organization scheme. Clicking an album links to the Album page, a which provides the album's songlist. Each line provides the song's track number, title and duration. By hovering over a song, the track number animates into a play or pause button, depending on if the song is currently playing or not. Finally, I incorporated a player bar at the bottom of the screen that provides a more user-friendly controller for music playback. Listeners are able to play, pause, skip forward or backward, and determine volume level.  The control also features an interactive slider bar that updates with each second of playback. After I completed the code using JQuery and front-end basic, I refactored the site using AngularJS.
 
+I built the site using a real-time preview with Node. This helped facilitate a fluid trail-and-error development process.
+
 ## Technologies Used
 
 Languages & libraries: HTML, CSS, JavaScript, Angular, jQuery, Buzz audio library (buzz.jaysalvat.com)
 
 ## How to Install
 
-Pull Down the Code
+###Pull Down the Code
 
 Start by cloning the repository:
 
@@ -16,7 +18,7 @@ Start by cloning the repository:
 $ git clone https://github.com/Bloc/bloc-frontend-project-starter.git <your-frontend-project-name>
 ```
 
-## Reset Git
+### Reset Git
 
 This will be your personal project. So all of the past commit history that we used to build this starter app aren't needed. Also you will want to be able to push/pull code from your personal remote (Github) repository and NOT Bloc's remote (Github) repository.
 
@@ -41,72 +43,6 @@ $ git remote add origin <URL TO NEW GITHUB REPO>
 $ git push origin master
 ```
 
-## Configuration
-
-The project uses Node to run a JS server in development. This will be important when we want to use urls /album or /collection instead of the basic album.html or collection.html. It may  help to review [our resource on NPM and `package.json` files](https://www.bloc.io/resources/npm-and-package-json).
-
-Install the project dependencies by running:
-
-```
-$ npm install
-```
-
-## Run the Application
-
-Run the application server:
-
-```
-$ npm start
-```
-
-The server will start up. To stop the server, press `cntrl + c`.
-
-
-## Use in Brackets Live Preview
-
-To use the application with the Live Preview functionality of the Brackets text editor, go to __File > Project Settings__ and add `http://localhost:3000` to the Base URL field.
-
-![Screenshot of project settings URL in Brackets](https://bloc-global-assets.s3.amazonaws.com/images-frontend/screenshots/bloc-frontend-project-starter/live_preview_project_settings.png)
-
-The text in the application will not update on every keystroke, but changes will automatically push when you save the file.
-
-## Directory Structure
-
-```
-├── LICENSE
-├── README.md
-├── app
-│   ├── assets
-│   │   └── images
-│   │       └── bloc-logo-white.png
-│   ├── pages
-│   │   └── index.html
-│   ├── scripts
-│   │   └── app.js
-│   ├── styles
-│   │   └── style.css
-│   └── templates
-│       └── home.html
-├── package.json
-└── server.js
-```
-
-
-### Assets/Images
-
-Add images to the `app/assets/images` directory. To reference images in HTML, use the path `/assets/images/<image file name>.jpg`. For example, to include the image called `bloc-white-logo.png`, the path for the `src` attribute in the HTML would be:
-
-```html
-<img src="/assets/images/bloc-white-logo.png">
-```
-
-__Note:__ A sample image has been added to `app/images`. To remove the image from the application, run the following command from the root of repo:
-
-```bash
-$ rm -f app/assets/images/bloc-white-logo.png
-```
-
-To reference any other assets, like the music in Bloc Jams, use the path `assets/<asset-type>/<asset-file-name>`.
 
 ### Difference between Pages and Templates
 
