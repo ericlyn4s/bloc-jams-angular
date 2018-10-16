@@ -7,7 +7,7 @@
 
 .album-view-details {
     position: relative;
-    top: 1.5rem;
+    top: 1.8rem;
     padding: 1rem;
 }
 
@@ -56,7 +56,7 @@
     text-align: center;
     font-size: 14px;
     background-color: white;
-    color: rgb(210, 40, 123);
+    color: rgb(210, 46, 123);
     border-radius: 50% 50%;
     display: inline-block;
     width: 28px;
